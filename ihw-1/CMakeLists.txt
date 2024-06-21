@@ -2,7 +2,7 @@
 
 #
 add_executable(ihw-1
-        solve/main.cpp)
+        solve/main.c)
 
 # true to enable module testing, false to disable
 set(OS_TESTING true)
