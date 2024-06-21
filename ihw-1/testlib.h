@@ -5973,6 +5973,7 @@ std::vector<TestResult> readTestResults(std::string fileName) {
 
 std::function<double(std::vector<TestResult>)> __testlib_scorer;
 
+
 struct TestlibScorerGuard {
     ~TestlibScorerGuard() {
         if (testlibMode == _scorer) {
