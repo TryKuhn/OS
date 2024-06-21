@@ -1,0 +1,753 @@
+Start testing: Jun 21 00:30 MSK
+----------------------------------------------------------
+1/50 Testing: test_group_0_test_0
+1/50 Test: test_group_0_test_0
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=0" "-N=10" "-Alpha=2"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_0_test_0" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_0_test_0" end time: Jun 21 00:30 MSK
+"test_group_0_test_0" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/50 Testing: test_group_0_test_1
+2/50 Test: test_group_0_test_1
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=1" "-N=10" "-Alpha=2"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_0_test_1" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_0_test_1" end time: Jun 21 00:30 MSK
+"test_group_0_test_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/50 Testing: test_group_0_test_2
+3/50 Test: test_group_0_test_2
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=2" "-N=10" "-Alpha=2"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_0_test_2" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_0_test_2" end time: Jun 21 00:30 MSK
+"test_group_0_test_2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/50 Testing: test_group_0_test_3
+4/50 Test: test_group_0_test_3
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=3" "-N=10" "-Alpha=2"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_0_test_3" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_0_test_3" end time: Jun 21 00:30 MSK
+"test_group_0_test_3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/50 Testing: test_group_0_test_4
+5/50 Test: test_group_0_test_4
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=4" "-N=10" "-Alpha=2"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_0_test_4" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_0_test_4" end time: Jun 21 00:30 MSK
+"test_group_0_test_4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/50 Testing: test_group_0_test_5
+6/50 Test: test_group_0_test_5
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=5" "-N=10" "-Alpha=2"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_0_test_5" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_0_test_5" end time: Jun 21 00:30 MSK
+"test_group_0_test_5" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/50 Testing: test_group_0_test_6
+7/50 Test: test_group_0_test_6
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=6" "-N=10" "-Alpha=2"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_0_test_6" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_0_test_6" end time: Jun 21 00:30 MSK
+"test_group_0_test_6" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/50 Testing: test_group_0_test_7
+8/50 Test: test_group_0_test_7
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=7" "-N=10" "-Alpha=2"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_0_test_7" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_0_test_7" end time: Jun 21 00:30 MSK
+"test_group_0_test_7" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/50 Testing: test_group_0_test_8
+9/50 Test: test_group_0_test_8
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=8" "-N=10" "-Alpha=2"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_0_test_8" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_0_test_8" end time: Jun 21 00:30 MSK
+"test_group_0_test_8" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/50 Testing: test_group_0_test_9
+10/50 Test: test_group_0_test_9
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=9" "-N=10" "-Alpha=2"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_0_test_9" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_0_test_9" end time: Jun 21 00:30 MSK
+"test_group_0_test_9" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/50 Testing: test_group_1_test_0
+11/50 Test: test_group_1_test_0
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=10" "-N=10" "-Alpha=26"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_1_test_0" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_1_test_0" end time: Jun 21 00:30 MSK
+"test_group_1_test_0" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/50 Testing: test_group_1_test_1
+12/50 Test: test_group_1_test_1
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=11" "-N=10" "-Alpha=26"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_1_test_1" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_1_test_1" end time: Jun 21 00:30 MSK
+"test_group_1_test_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/50 Testing: test_group_1_test_2
+13/50 Test: test_group_1_test_2
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=12" "-N=10" "-Alpha=26"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_1_test_2" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_1_test_2" end time: Jun 21 00:30 MSK
+"test_group_1_test_2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/50 Testing: test_group_1_test_3
+14/50 Test: test_group_1_test_3
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=13" "-N=10" "-Alpha=26"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_1_test_3" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_1_test_3" end time: Jun 21 00:30 MSK
+"test_group_1_test_3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/50 Testing: test_group_1_test_4
+15/50 Test: test_group_1_test_4
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=14" "-N=10" "-Alpha=26"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_1_test_4" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_1_test_4" end time: Jun 21 00:30 MSK
+"test_group_1_test_4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/50 Testing: test_group_1_test_5
+16/50 Test: test_group_1_test_5
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=15" "-N=10" "-Alpha=26"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_1_test_5" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_1_test_5" end time: Jun 21 00:30 MSK
+"test_group_1_test_5" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/50 Testing: test_group_1_test_6
+17/50 Test: test_group_1_test_6
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=16" "-N=10" "-Alpha=26"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_1_test_6" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_1_test_6" end time: Jun 21 00:30 MSK
+"test_group_1_test_6" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/50 Testing: test_group_1_test_7
+18/50 Test: test_group_1_test_7
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=17" "-N=10" "-Alpha=26"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_1_test_7" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_1_test_7" end time: Jun 21 00:30 MSK
+"test_group_1_test_7" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/50 Testing: test_group_1_test_8
+19/50 Test: test_group_1_test_8
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=18" "-N=10" "-Alpha=26"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_1_test_8" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_1_test_8" end time: Jun 21 00:30 MSK
+"test_group_1_test_8" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/50 Testing: test_group_1_test_9
+20/50 Test: test_group_1_test_9
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=19" "-N=10" "-Alpha=26"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_1_test_9" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_1_test_9" end time: Jun 21 00:30 MSK
+"test_group_1_test_9" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/50 Testing: test_group_2_test_0
+21/50 Test: test_group_2_test_0
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=20" "-N=10" "-Alpha=128"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_2_test_0" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_2_test_0" end time: Jun 21 00:30 MSK
+"test_group_2_test_0" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/50 Testing: test_group_2_test_1
+22/50 Test: test_group_2_test_1
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=21" "-N=10" "-Alpha=128"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_2_test_1" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_2_test_1" end time: Jun 21 00:30 MSK
+"test_group_2_test_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/50 Testing: test_group_2_test_2
+23/50 Test: test_group_2_test_2
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=22" "-N=10" "-Alpha=128"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_2_test_2" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_2_test_2" end time: Jun 21 00:30 MSK
+"test_group_2_test_2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/50 Testing: test_group_2_test_3
+24/50 Test: test_group_2_test_3
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=23" "-N=10" "-Alpha=128"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_2_test_3" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_2_test_3" end time: Jun 21 00:30 MSK
+"test_group_2_test_3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/50 Testing: test_group_2_test_4
+25/50 Test: test_group_2_test_4
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=24" "-N=10" "-Alpha=128"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_2_test_4" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_2_test_4" end time: Jun 21 00:30 MSK
+"test_group_2_test_4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/50 Testing: test_group_2_test_5
+26/50 Test: test_group_2_test_5
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=25" "-N=10" "-Alpha=128"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_2_test_5" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_2_test_5" end time: Jun 21 00:30 MSK
+"test_group_2_test_5" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/50 Testing: test_group_2_test_6
+27/50 Test: test_group_2_test_6
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=26" "-N=10" "-Alpha=128"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_2_test_6" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_2_test_6" end time: Jun 21 00:30 MSK
+"test_group_2_test_6" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/50 Testing: test_group_2_test_7
+28/50 Test: test_group_2_test_7
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=27" "-N=10" "-Alpha=128"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_2_test_7" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_2_test_7" end time: Jun 21 00:30 MSK
+"test_group_2_test_7" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/50 Testing: test_group_2_test_8
+29/50 Test: test_group_2_test_8
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=28" "-N=10" "-Alpha=128"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_2_test_8" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_2_test_8" end time: Jun 21 00:30 MSK
+"test_group_2_test_8" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/50 Testing: test_group_2_test_9
+30/50 Test: test_group_2_test_9
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=29" "-N=10" "-Alpha=128"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_2_test_9" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_2_test_9" end time: Jun 21 00:30 MSK
+"test_group_2_test_9" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/50 Testing: test_group_3_test_0
+31/50 Test: test_group_3_test_0
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=30" "-N=100" "-Alpha=128"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_3_test_0" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_3_test_0" end time: Jun 21 00:30 MSK
+"test_group_3_test_0" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/50 Testing: test_group_3_test_1
+32/50 Test: test_group_3_test_1
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=31" "-N=100" "-Alpha=128"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_3_test_1" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_3_test_1" end time: Jun 21 00:30 MSK
+"test_group_3_test_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/50 Testing: test_group_3_test_2
+33/50 Test: test_group_3_test_2
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=32" "-N=100" "-Alpha=128"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_3_test_2" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_3_test_2" end time: Jun 21 00:30 MSK
+"test_group_3_test_2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/50 Testing: test_group_3_test_3
+34/50 Test: test_group_3_test_3
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=33" "-N=100" "-Alpha=128"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_3_test_3" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_3_test_3" end time: Jun 21 00:30 MSK
+"test_group_3_test_3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/50 Testing: test_group_3_test_4
+35/50 Test: test_group_3_test_4
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=34" "-N=100" "-Alpha=128"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_3_test_4" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_3_test_4" end time: Jun 21 00:30 MSK
+"test_group_3_test_4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/50 Testing: test_group_3_test_5
+36/50 Test: test_group_3_test_5
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=35" "-N=100" "-Alpha=128"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_3_test_5" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_3_test_5" end time: Jun 21 00:30 MSK
+"test_group_3_test_5" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/50 Testing: test_group_3_test_6
+37/50 Test: test_group_3_test_6
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=36" "-N=100" "-Alpha=128"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_3_test_6" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_3_test_6" end time: Jun 21 00:30 MSK
+"test_group_3_test_6" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/50 Testing: test_group_3_test_7
+38/50 Test: test_group_3_test_7
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=37" "-N=100" "-Alpha=128"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_3_test_7" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_3_test_7" end time: Jun 21 00:30 MSK
+"test_group_3_test_7" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/50 Testing: test_group_3_test_8
+39/50 Test: test_group_3_test_8
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=38" "-N=100" "-Alpha=128"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_3_test_8" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_3_test_8" end time: Jun 21 00:30 MSK
+"test_group_3_test_8" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/50 Testing: test_group_3_test_9
+40/50 Test: test_group_3_test_9
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=39" "-N=100" "-Alpha=128"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_3_test_9" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_3_test_9" end time: Jun 21 00:30 MSK
+"test_group_3_test_9" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/50 Testing: test_group_4_test_0
+41/50 Test: test_group_4_test_0
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=40" "-N=100000" "-Alpha=128"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_4_test_0" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_4_test_0" end time: Jun 21 00:30 MSK
+"test_group_4_test_0" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/50 Testing: test_group_4_test_1
+42/50 Test: test_group_4_test_1
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=41" "-N=100000" "-Alpha=128"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_4_test_1" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_4_test_1" end time: Jun 21 00:30 MSK
+"test_group_4_test_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/50 Testing: test_group_4_test_2
+43/50 Test: test_group_4_test_2
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=42" "-N=100000" "-Alpha=128"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_4_test_2" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_4_test_2" end time: Jun 21 00:30 MSK
+"test_group_4_test_2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+44/50 Testing: test_group_4_test_3
+44/50 Test: test_group_4_test_3
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=43" "-N=100000" "-Alpha=128"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_4_test_3" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_4_test_3" end time: Jun 21 00:30 MSK
+"test_group_4_test_3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+45/50 Testing: test_group_4_test_4
+45/50 Test: test_group_4_test_4
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=44" "-N=100000" "-Alpha=128"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_4_test_4" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_4_test_4" end time: Jun 21 00:30 MSK
+"test_group_4_test_4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+46/50 Testing: test_group_4_test_5
+46/50 Test: test_group_4_test_5
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=45" "-N=100000" "-Alpha=128"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_4_test_5" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_4_test_5" end time: Jun 21 00:30 MSK
+"test_group_4_test_5" time elapsed: 00:00:00
+----------------------------------------------------------
+
+47/50 Testing: test_group_4_test_6
+47/50 Test: test_group_4_test_6
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=46" "-N=100000" "-Alpha=128"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_4_test_6" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_4_test_6" end time: Jun 21 00:30 MSK
+"test_group_4_test_6" time elapsed: 00:00:00
+----------------------------------------------------------
+
+48/50 Testing: test_group_4_test_7
+48/50 Test: test_group_4_test_7
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=47" "-N=100000" "-Alpha=128"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_4_test_7" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_4_test_7" end time: Jun 21 00:30 MSK
+"test_group_4_test_7" time elapsed: 00:00:00
+----------------------------------------------------------
+
+49/50 Testing: test_group_4_test_8
+49/50 Test: test_group_4_test_8
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=48" "-N=100000" "-Alpha=128"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_4_test_8" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_4_test_8" end time: Jun 21 00:30 MSK
+"test_group_4_test_8" time elapsed: 00:00:00
+----------------------------------------------------------
+
+50/50 Testing: test_group_4_test_9
+50/50 Test: test_group_4_test_9
+Command: "/mnt/d/Projects/CLion/OS/ihw-1/test/check" "-test=49" "-N=100000" "-Alpha=128"
+Directory: /mnt/d/Projects/CLion/OS/ihw-1/test
+"test_group_4_test_9" start time: Jun 21 00:30 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"test_group_4_test_9" end time: Jun 21 00:30 MSK
+"test_group_4_test_9" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 21 00:30 MSK

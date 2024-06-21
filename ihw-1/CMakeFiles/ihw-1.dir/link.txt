@@ -1,0 +1,1 @@
+/usr/bin/c++ "CMakeFiles/ihw-1.dir/four/main.cpp.o" -o ihw-1

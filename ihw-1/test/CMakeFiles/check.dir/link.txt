@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/check.dir/gen.cpp.o -o check
