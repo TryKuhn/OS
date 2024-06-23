@@ -1,0 +1,65 @@
+\hypertarget{classget_answer}{}\doxysection{get\+Answer Class Reference}
+\label{classget_answer}\index{getAnswer@{getAnswer}}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\static void \mbox{\hyperlink{classget_answer_a832a5edfd6a8cd18c11eea3f68d4724b}{set\+Filter}} (T upd)
+\item 
+static std\+::map$<$ char, int $>$ \mbox{\hyperlink{classget_answer_ab0217103c3bef25e266abcaf36bf0294}{j\+\_\+ans}} (const std\+::string \&s)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static std\+::set$<$ char $>$ \mbox{\hyperlink{classget_answer_ac7e3e7101bb7f789b172c049889c87db}{is\+\_\+ok}} = \{\}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Functions needed to generate jury output 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classget_answer_ab0217103c3bef25e266abcaf36bf0294}\label{classget_answer_ab0217103c3bef25e266abcaf36bf0294}} 
+\index{getAnswer@{getAnswer}!j\_ans@{j\_ans}}
+\index{j\_ans@{j\_ans}!getAnswer@{getAnswer}}
+\doxysubsubsection{\texorpdfstring{j\_ans()}{j\_ans()}}
+{\footnotesize\ttfamily static std\+::map$<$char, int$>$ get\+Answer\+::j\+\_\+ans (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Computer of jury answer 
+\begin{DoxyParams}{Parameters}
+{\em s} & input string \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+answer to the test 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classget_answer_a832a5edfd6a8cd18c11eea3f68d4724b}\label{classget_answer_a832a5edfd6a8cd18c11eea3f68d4724b}} 
+\index{getAnswer@{getAnswer}!setFilter@{setFilter}}
+\index{setFilter@{setFilter}!getAnswer@{getAnswer}}
+\doxysubsubsection{\texorpdfstring{setFilter()}{setFilter()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+static void get\+Answer\+::set\+Filter (\begin{DoxyParamCaption}\item[{T}]{upd }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Update symbols to be checked 
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & convertable types to std\+::set$<$char$>$ \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em upd} & new symbols \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classget_answer_ac7e3e7101bb7f789b172c049889c87db}\label{classget_answer_ac7e3e7101bb7f789b172c049889c87db}} 
+\index{getAnswer@{getAnswer}!is\_ok@{is\_ok}}
+\index{is\_ok@{is\_ok}!getAnswer@{getAnswer}}
+\doxysubsubsection{\texorpdfstring{is\_ok}{is\_ok}}
+{\footnotesize\ttfamily std\+::set$<$ char $>$ get\+Answer\+::is\+\_\+ok = \{\}\hspace{0.3cm}{\ttfamily [static]}}
+
+Symbols to be checked 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/try\+\_\+kuhn/\+CLion\+Projects/\+OS/ihw-\/1/solve/\mbox{\hyperlink{jury__answer_8cpp}{jury\+\_\+answer.\+cpp}}\end{DoxyCompactItemize}
