@@ -1,4 +1,5 @@
-add_executable(client client.c)
+add_executable(client client.c
+)
 message(STATUS "${Green} client is loaded ${ColourReset}")
 
 add_executable(server server.c)
