@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['main_74',['main',['../io__runner_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;io_runner.cpp'],['../participant__answer_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;participant_answer.cpp'],['../check_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;check.cpp']]]
+  ['generate_5fkey_84',['generate_key',['../client_8c.html#ac62cea8ee93fb7dc17a32b874992ee4b',1,'generate_key():&#160;client.c'],['../server_8c.html#ac62cea8ee93fb7dc17a32b874992ee4b',1,'generate_key():&#160;server.c']]],
+  ['get_5fsemaphore_5fid_85',['get_semaphore_id',['../client_8c.html#a12af68a6f9c4c4779971f6455149be4f',1,'get_semaphore_id():&#160;client.c'],['../server_8c.html#a12af68a6f9c4c4779971f6455149be4f',1,'get_semaphore_id():&#160;server.c']]]
 ];

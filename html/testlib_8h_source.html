@@ -4339,11 +4339,11 @@ $(function() {
 <div class="line"><a name="l04269"></a><span class="lineno"> 4269</span>&#160;    opened = <span class="keyword">false</span>;</div>
 <div class="line"><a name="l04270"></a><span class="lineno"> 4270</span>&#160;}</div>
 <div class="line"><a name="l04271"></a><span class="lineno"> 4271</span>&#160; </div>
-<div class="line"><a name="l04272"></a><span class="lineno"> 4272</span>&#160;NORETURN <span class="keywordtype">void</span> quit(TResult result, <span class="keyword">const</span> std::string &amp;msg) {</div>
+<div class="line"><a name="l04272"></a><span class="lineno"> 4272</span>&#160;NORETURN <span class="keywordtype">void</span> <a class="code" href="server_8c.html#af9150b82e29a37ab848ee2f66e993793">quit</a>(TResult result, <span class="keyword">const</span> std::string &amp;msg) {</div>
 <div class="line"><a name="l04273"></a><span class="lineno"> 4273</span>&#160;    ouf.quit(result, msg.c_str());</div>
 <div class="line"><a name="l04274"></a><span class="lineno"> 4274</span>&#160;}</div>
 <div class="line"><a name="l04275"></a><span class="lineno"> 4275</span>&#160; </div>
-<div class="line"><a name="l04276"></a><span class="lineno"> 4276</span>&#160;NORETURN <span class="keywordtype">void</span> quit(TResult result, <span class="keyword">const</span> <span class="keywordtype">char</span> *msg) {</div>
+<div class="line"><a name="l04276"></a><span class="lineno"> 4276</span>&#160;NORETURN <span class="keywordtype">void</span> <a class="code" href="server_8c.html#af9150b82e29a37ab848ee2f66e993793">quit</a>(TResult result, <span class="keyword">const</span> <span class="keywordtype">char</span> *msg) {</div>
 <div class="line"><a name="l04277"></a><span class="lineno"> 4277</span>&#160;    ouf.quit(result, msg);</div>
 <div class="line"><a name="l04278"></a><span class="lineno"> 4278</span>&#160;}</div>
 <div class="line"><a name="l04279"></a><span class="lineno"> 4279</span>&#160; </div>
@@ -4357,7 +4357,7 @@ $(function() {
 <div class="line"><a name="l04287"></a><span class="lineno"> 4287</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l04288"></a><span class="lineno"> 4288</span>&#160;        quitMessage = stringPoints + <span class="stringliteral">&quot; &quot;</span> + message;</div>
 <div class="line"><a name="l04289"></a><span class="lineno"> 4289</span>&#160; </div>
-<div class="line"><a name="l04290"></a><span class="lineno"> 4290</span>&#160;    quit(_points, quitMessage.c_str());</div>
+<div class="line"><a name="l04290"></a><span class="lineno"> 4290</span>&#160;    <a class="code" href="server_8c.html#af9150b82e29a37ab848ee2f66e993793">quit</a>(_points, quitMessage.c_str());</div>
 <div class="line"><a name="l04291"></a><span class="lineno"> 4291</span>&#160;}</div>
 <div class="line"><a name="l04292"></a><span class="lineno"> 4292</span>&#160; </div>
 <div class="line"><a name="l04293"></a><span class="lineno"> 4293</span>&#160;NORETURN <span class="keywordtype">void</span> __testlib_quitp(<span class="keywordtype">int</span> points, <span class="keyword">const</span> <span class="keywordtype">char</span> *message) {</div>
@@ -4370,7 +4370,7 @@ $(function() {
 <div class="line"><a name="l04300"></a><span class="lineno"> 4300</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l04301"></a><span class="lineno"> 4301</span>&#160;        quitMessage = stringPoints + <span class="stringliteral">&quot; &quot;</span> + message;</div>
 <div class="line"><a name="l04302"></a><span class="lineno"> 4302</span>&#160; </div>
-<div class="line"><a name="l04303"></a><span class="lineno"> 4303</span>&#160;    quit(_points, quitMessage.c_str());</div>
+<div class="line"><a name="l04303"></a><span class="lineno"> 4303</span>&#160;    <a class="code" href="server_8c.html#af9150b82e29a37ab848ee2f66e993793">quit</a>(_points, quitMessage.c_str());</div>
 <div class="line"><a name="l04304"></a><span class="lineno"> 4304</span>&#160;}</div>
 <div class="line"><a name="l04305"></a><span class="lineno"> 4305</span>&#160; </div>
 <div class="line"><a name="l04306"></a><span class="lineno"> 4306</span>&#160;NORETURN <span class="keywordtype">void</span> quitp(<span class="keywordtype">float</span> points, <span class="keyword">const</span> std::string &amp;message = <span class="stringliteral">&quot;&quot;</span>) {</div>
@@ -4391,11 +4391,11 @@ $(function() {
 <div class="line"><a name="l04321"></a><span class="lineno"> 4321</span>&#160; </div>
 <div class="line"><a name="l04322"></a><span class="lineno"> 4322</span>&#160;NORETURN <span class="keywordtype">void</span> quitpi(<span class="keyword">const</span> std::string &amp;points_info, <span class="keyword">const</span> std::string &amp;message = <span class="stringliteral">&quot;&quot;</span>) {</div>
 <div class="line"><a name="l04323"></a><span class="lineno"> 4323</span>&#160;    <span class="keywordflow">if</span> (points_info.find(<span class="charliteral">&#39; &#39;</span>) != std::string::npos)</div>
-<div class="line"><a name="l04324"></a><span class="lineno"> 4324</span>&#160;        quit(_fail, <span class="stringliteral">&quot;Parameter &#39;points_info&#39; can&#39;t contain spaces&quot;</span>);</div>
+<div class="line"><a name="l04324"></a><span class="lineno"> 4324</span>&#160;        <a class="code" href="server_8c.html#af9150b82e29a37ab848ee2f66e993793">quit</a>(_fail, <span class="stringliteral">&quot;Parameter &#39;points_info&#39; can&#39;t contain spaces&quot;</span>);</div>
 <div class="line"><a name="l04325"></a><span class="lineno"> 4325</span>&#160;    <span class="keywordflow">if</span> (message.empty())</div>
-<div class="line"><a name="l04326"></a><span class="lineno"> 4326</span>&#160;        quit(_points, (<span class="stringliteral">&quot;points_info=&quot;</span> + points_info).c_str());</div>
+<div class="line"><a name="l04326"></a><span class="lineno"> 4326</span>&#160;        <a class="code" href="server_8c.html#af9150b82e29a37ab848ee2f66e993793">quit</a>(_points, (<span class="stringliteral">&quot;points_info=&quot;</span> + points_info).c_str());</div>
 <div class="line"><a name="l04327"></a><span class="lineno"> 4327</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l04328"></a><span class="lineno"> 4328</span>&#160;        quit(_points, (<span class="stringliteral">&quot;points_info=&quot;</span> + points_info + <span class="stringliteral">&quot; &quot;</span> + message).c_str());</div>
+<div class="line"><a name="l04328"></a><span class="lineno"> 4328</span>&#160;        <a class="code" href="server_8c.html#af9150b82e29a37ab848ee2f66e993793">quit</a>(_points, (<span class="stringliteral">&quot;points_info=&quot;</span> + points_info + <span class="stringliteral">&quot; &quot;</span> + message).c_str());</div>
 <div class="line"><a name="l04329"></a><span class="lineno"> 4329</span>&#160;}</div>
 <div class="line"><a name="l04330"></a><span class="lineno"> 4330</span>&#160; </div>
 <div class="line"><a name="l04331"></a><span class="lineno"> 4331</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> F&gt;</div>
@@ -4412,7 +4412,7 @@ $(function() {
 <div class="line"><a name="l04342"></a><span class="lineno"> 4342</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l04343"></a><span class="lineno"> 4343</span>&#160;NORETURN <span class="keywordtype">void</span> quitf(TResult result, <span class="keyword">const</span> <span class="keywordtype">char</span> *format, ...) {</div>
 <div class="line"><a name="l04344"></a><span class="lineno"> 4344</span>&#160;    FMT_TO_RESULT(format, format, message);</div>
-<div class="line"><a name="l04345"></a><span class="lineno"> 4345</span>&#160;    quit(result, message);</div>
+<div class="line"><a name="l04345"></a><span class="lineno"> 4345</span>&#160;    <a class="code" href="server_8c.html#af9150b82e29a37ab848ee2f66e993793">quit</a>(result, message);</div>
 <div class="line"><a name="l04346"></a><span class="lineno"> 4346</span>&#160;}</div>
 <div class="line"><a name="l04347"></a><span class="lineno"> 4347</span>&#160; </div>
 <div class="line"><a name="l04348"></a><span class="lineno"> 4348</span>&#160;<span class="preprocessor">#ifdef __GNUC__</span></div>
@@ -4421,7 +4421,7 @@ $(function() {
 <div class="line"><a name="l04351"></a><span class="lineno"> 4351</span>&#160;<span class="keywordtype">void</span> quitif(<span class="keywordtype">bool</span> condition, TResult result, <span class="keyword">const</span> <span class="keywordtype">char</span> *format, ...) {</div>
 <div class="line"><a name="l04352"></a><span class="lineno"> 4352</span>&#160;    <span class="keywordflow">if</span> (condition) {</div>
 <div class="line"><a name="l04353"></a><span class="lineno"> 4353</span>&#160;        FMT_TO_RESULT(format, format, message);</div>
-<div class="line"><a name="l04354"></a><span class="lineno"> 4354</span>&#160;        quit(result, message);</div>
+<div class="line"><a name="l04354"></a><span class="lineno"> 4354</span>&#160;        <a class="code" href="server_8c.html#af9150b82e29a37ab848ee2f66e993793">quit</a>(result, message);</div>
 <div class="line"><a name="l04355"></a><span class="lineno"> 4355</span>&#160;    }</div>
 <div class="line"><a name="l04356"></a><span class="lineno"> 4356</span>&#160;}</div>
 <div class="line"><a name="l04357"></a><span class="lineno"> 4357</span>&#160; </div>
@@ -4461,9 +4461,9 @@ $(function() {
 <div class="line"><a name="l04391"></a><span class="lineno"> 4391</span>&#160; </div>
 <div class="line"><a name="l04392"></a><span class="lineno"> 4392</span>&#160;    <span class="comment">// testlib assumes: no -ffast-math.</span></div>
 <div class="line"><a name="l04393"></a><span class="lineno"> 4393</span>&#160;    <span class="keywordflow">if</span> (!__testlib_isNaN(+__testlib_nan()))</div>
-<div class="line"><a name="l04394"></a><span class="lineno"> 4394</span>&#160;        quit(_fail, <span class="stringliteral">&quot;Function __testlib_isNaN is not working correctly: possible reason is &#39;-ffast-math&#39;&quot;</span>);</div>
+<div class="line"><a name="l04394"></a><span class="lineno"> 4394</span>&#160;        <a class="code" href="server_8c.html#af9150b82e29a37ab848ee2f66e993793">quit</a>(_fail, <span class="stringliteral">&quot;Function __testlib_isNaN is not working correctly: possible reason is &#39;-ffast-math&#39;&quot;</span>);</div>
 <div class="line"><a name="l04395"></a><span class="lineno"> 4395</span>&#160;    <span class="keywordflow">if</span> (!__testlib_isNaN(-__testlib_nan()))</div>
-<div class="line"><a name="l04396"></a><span class="lineno"> 4396</span>&#160;        quit(_fail, <span class="stringliteral">&quot;Function __testlib_isNaN is not working correctly: possible reason is &#39;-ffast-math&#39;&quot;</span>);</div>
+<div class="line"><a name="l04396"></a><span class="lineno"> 4396</span>&#160;        <a class="code" href="server_8c.html#af9150b82e29a37ab848ee2f66e993793">quit</a>(_fail, <span class="stringliteral">&quot;Function __testlib_isNaN is not working correctly: possible reason is &#39;-ffast-math&#39;&quot;</span>);</div>
 <div class="line"><a name="l04397"></a><span class="lineno"> 4397</span>&#160;}</div>
 <div class="line"><a name="l04398"></a><span class="lineno"> 4398</span>&#160; </div>
 <div class="line"><a name="l04399"></a><span class="lineno"> 4399</span>&#160;std::string __testlib_testset;</div>
@@ -4484,12 +4484,12 @@ $(function() {
 <div class="line"><a name="l04414"></a><span class="lineno"> 4414</span>&#160;            <span class="keywordflow">if</span> (i + 1 &lt; argc &amp;&amp; strlen(argv[i + 1]) &gt; 0)</div>
 <div class="line"><a name="l04415"></a><span class="lineno"> 4415</span>&#160;                __testlib_testset = argv[++i];</div>
 <div class="line"><a name="l04416"></a><span class="lineno"> 4416</span>&#160;            <span class="keywordflow">else</span></div>
-<div class="line"><a name="l04417"></a><span class="lineno"> 4417</span>&#160;                quit(_fail, std::string(<span class="stringliteral">&quot;Expected non-empty testset after --testset command line parameter&quot;</span>));</div>
+<div class="line"><a name="l04417"></a><span class="lineno"> 4417</span>&#160;                <a class="code" href="server_8c.html#af9150b82e29a37ab848ee2f66e993793">quit</a>(_fail, std::string(<span class="stringliteral">&quot;Expected non-empty testset after --testset command line parameter&quot;</span>));</div>
 <div class="line"><a name="l04418"></a><span class="lineno"> 4418</span>&#160;        } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (!strcmp(<span class="stringliteral">&quot;--group&quot;</span>, argv[i])) {</div>
 <div class="line"><a name="l04419"></a><span class="lineno"> 4419</span>&#160;            <span class="keywordflow">if</span> (i + 1 &lt; argc)</div>
 <div class="line"><a name="l04420"></a><span class="lineno"> 4420</span>&#160;                __testlib_group = argv[++i];</div>
 <div class="line"><a name="l04421"></a><span class="lineno"> 4421</span>&#160;            <span class="keywordflow">else</span></div>
-<div class="line"><a name="l04422"></a><span class="lineno"> 4422</span>&#160;                quit(_fail, std::string(<span class="stringliteral">&quot;Expected group after --group command line parameter&quot;</span>));</div>
+<div class="line"><a name="l04422"></a><span class="lineno"> 4422</span>&#160;                <a class="code" href="server_8c.html#af9150b82e29a37ab848ee2f66e993793">quit</a>(_fail, std::string(<span class="stringliteral">&quot;Expected group after --group command line parameter&quot;</span>));</div>
 <div class="line"><a name="l04423"></a><span class="lineno"> 4423</span>&#160;        }</div>
 <div class="line"><a name="l04424"></a><span class="lineno"> 4424</span>&#160;    }</div>
 <div class="line"><a name="l04425"></a><span class="lineno"> 4425</span>&#160;}</div>
@@ -4562,7 +4562,7 @@ $(function() {
 <div class="line"><a name="l04492"></a><span class="lineno"> 4492</span>&#160;            <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l04493"></a><span class="lineno"> 4493</span>&#160;        }</div>
 <div class="line"><a name="l04494"></a><span class="lineno"> 4494</span>&#160;    <span class="keywordflow">if</span> (!valid)</div>
-<div class="line"><a name="l04495"></a><span class="lineno"> 4495</span>&#160;        quit(_fail, <span class="stringliteral">&quot;Unexpected encoding for setAppesModeEncoding(encoding)&quot;</span>);</div>
+<div class="line"><a name="l04495"></a><span class="lineno"> 4495</span>&#160;        <a class="code" href="server_8c.html#af9150b82e29a37ab848ee2f66e993793">quit</a>(_fail, <span class="stringliteral">&quot;Unexpected encoding for setAppesModeEncoding(encoding)&quot;</span>);</div>
 <div class="line"><a name="l04496"></a><span class="lineno"> 4496</span>&#160;    ::appesModeEncoding = appesModeEncoding;</div>
 <div class="line"><a name="l04497"></a><span class="lineno"> 4497</span>&#160;}</div>
 <div class="line"><a name="l04498"></a><span class="lineno"> 4498</span>&#160; </div>
@@ -4578,7 +4578,7 @@ $(function() {
 <div class="line"><a name="l04508"></a><span class="lineno"> 4508</span>&#160;        __testlib_help();</div>
 <div class="line"><a name="l04509"></a><span class="lineno"> 4509</span>&#160; </div>
 <div class="line"><a name="l04510"></a><span class="lineno"> 4510</span>&#160;    <span class="keywordflow">if</span> (argc &lt; 3 || argc &gt; 6) {</div>
-<div class="line"><a name="l04511"></a><span class="lineno"> 4511</span>&#160;        quit(_fail, std::string(<span class="stringliteral">&quot;Program must be run with the following arguments: &quot;</span>) +</div>
+<div class="line"><a name="l04511"></a><span class="lineno"> 4511</span>&#160;        <a class="code" href="server_8c.html#af9150b82e29a37ab848ee2f66e993793">quit</a>(_fail, std::string(<span class="stringliteral">&quot;Program must be run with the following arguments: &quot;</span>) +</div>
 <div class="line"><a name="l04512"></a><span class="lineno"> 4512</span>&#160;                    std::string(<span class="stringliteral">&quot;&lt;input-file&gt; &lt;output-file&gt; [&lt;answer-file&gt; [&lt;report-file&gt; [&lt;-appes&gt;]]]&quot;</span>) +</div>
 <div class="line"><a name="l04513"></a><span class="lineno"> 4513</span>&#160;                    <span class="stringliteral">&quot;\nUse \&quot;--help\&quot; to get help information&quot;</span>);</div>
 <div class="line"><a name="l04514"></a><span class="lineno"> 4514</span>&#160;    }</div>
@@ -4596,7 +4596,7 @@ $(function() {
 <div class="line"><a name="l04526"></a><span class="lineno"> 4526</span>&#160; </div>
 <div class="line"><a name="l04527"></a><span class="lineno"> 4527</span>&#160;    <span class="keywordflow">if</span> (argc == 6) {</div>
 <div class="line"><a name="l04528"></a><span class="lineno"> 4528</span>&#160;        <span class="keywordflow">if</span> (strcmp(<span class="stringliteral">&quot;-APPES&quot;</span>, argv[5]) &amp;&amp; strcmp(<span class="stringliteral">&quot;-appes&quot;</span>, argv[5])) {</div>
-<div class="line"><a name="l04529"></a><span class="lineno"> 4529</span>&#160;            quit(_fail, std::string(<span class="stringliteral">&quot;Program must be run with the following arguments: &quot;</span>) +</div>
+<div class="line"><a name="l04529"></a><span class="lineno"> 4529</span>&#160;            <a class="code" href="server_8c.html#af9150b82e29a37ab848ee2f66e993793">quit</a>(_fail, std::string(<span class="stringliteral">&quot;Program must be run with the following arguments: &quot;</span>) +</div>
 <div class="line"><a name="l04530"></a><span class="lineno"> 4530</span>&#160;                        <span class="stringliteral">&quot;&lt;input-file&gt; &lt;output-file&gt; &lt;answer-file&gt; [&lt;report-file&gt; [&lt;-appes&gt;]]&quot;</span>);</div>
 <div class="line"><a name="l04531"></a><span class="lineno"> 4531</span>&#160;        } <span class="keywordflow">else</span> {</div>
 <div class="line"><a name="l04532"></a><span class="lineno"> 4532</span>&#160;            resultName = argv[4];</div>
@@ -4609,7 +4609,7 @@ $(function() {
 <div class="line"><a name="l04539"></a><span class="lineno"> 4539</span>&#160; </div>
 <div class="line"><a name="l04540"></a><span class="lineno"> 4540</span>&#160;    tout.open(argv[2], std::ios_base::out);</div>
 <div class="line"><a name="l04541"></a><span class="lineno"> 4541</span>&#160;    <span class="keywordflow">if</span> (tout.fail() || !tout.is_open())</div>
-<div class="line"><a name="l04542"></a><span class="lineno"> 4542</span>&#160;        quit(_fail, std::string(<span class="stringliteral">&quot;Can not write to the test-output-file &#39;&quot;</span>) + argv[2] + std::string(<span class="stringliteral">&quot;&#39;&quot;</span>));</div>
+<div class="line"><a name="l04542"></a><span class="lineno"> 4542</span>&#160;        <a class="code" href="server_8c.html#af9150b82e29a37ab848ee2f66e993793">quit</a>(_fail, std::string(<span class="stringliteral">&quot;Can not write to the test-output-file &#39;&quot;</span>) + argv[2] + std::string(<span class="stringliteral">&quot;&#39;&quot;</span>));</div>
 <div class="line"><a name="l04543"></a><span class="lineno"> 4543</span>&#160; </div>
 <div class="line"><a name="l04544"></a><span class="lineno"> 4544</span>&#160;    ouf.init(stdin, _output);</div>
 <div class="line"><a name="l04545"></a><span class="lineno"> 4545</span>&#160; </div>
@@ -4654,54 +4654,54 @@ $(function() {
 <div class="line"><a name="l04584"></a><span class="lineno"> 4584</span>&#160;            <span class="keywordflow">if</span> (i + 1 &lt; argc &amp;&amp; strlen(argv[i + 1]) &gt; 0)</div>
 <div class="line"><a name="l04585"></a><span class="lineno"> 4585</span>&#160;                validator.setTestset(argv[++i]);</div>
 <div class="line"><a name="l04586"></a><span class="lineno"> 4586</span>&#160;            <span class="keywordflow">else</span></div>
-<div class="line"><a name="l04587"></a><span class="lineno"> 4587</span>&#160;                quit(_fail, comment);</div>
+<div class="line"><a name="l04587"></a><span class="lineno"> 4587</span>&#160;                <a class="code" href="server_8c.html#af9150b82e29a37ab848ee2f66e993793">quit</a>(_fail, comment);</div>
 <div class="line"><a name="l04588"></a><span class="lineno"> 4588</span>&#160;        }</div>
 <div class="line"><a name="l04589"></a><span class="lineno"> 4589</span>&#160;        <span class="keywordflow">if</span> (!strcmp(<span class="stringliteral">&quot;--group&quot;</span>, argv[i])) {</div>
 <div class="line"><a name="l04590"></a><span class="lineno"> 4590</span>&#160;            <span class="keywordflow">if</span> (i + 1 &lt; argc)</div>
 <div class="line"><a name="l04591"></a><span class="lineno"> 4591</span>&#160;                validator.setGroup(argv[++i]);</div>
 <div class="line"><a name="l04592"></a><span class="lineno"> 4592</span>&#160;            <span class="keywordflow">else</span></div>
-<div class="line"><a name="l04593"></a><span class="lineno"> 4593</span>&#160;                quit(_fail, comment);</div>
+<div class="line"><a name="l04593"></a><span class="lineno"> 4593</span>&#160;                <a class="code" href="server_8c.html#af9150b82e29a37ab848ee2f66e993793">quit</a>(_fail, comment);</div>
 <div class="line"><a name="l04594"></a><span class="lineno"> 4594</span>&#160;        }</div>
 <div class="line"><a name="l04595"></a><span class="lineno"> 4595</span>&#160;        <span class="keywordflow">if</span> (!strcmp(<span class="stringliteral">&quot;--testOverviewLogFileName&quot;</span>, argv[i])) {</div>
 <div class="line"><a name="l04596"></a><span class="lineno"> 4596</span>&#160;            <span class="keywordflow">if</span> (i + 1 &lt; argc)</div>
 <div class="line"><a name="l04597"></a><span class="lineno"> 4597</span>&#160;                validator.setTestOverviewLogFileName(argv[++i]);</div>
 <div class="line"><a name="l04598"></a><span class="lineno"> 4598</span>&#160;            <span class="keywordflow">else</span></div>
-<div class="line"><a name="l04599"></a><span class="lineno"> 4599</span>&#160;                quit(_fail, comment);</div>
+<div class="line"><a name="l04599"></a><span class="lineno"> 4599</span>&#160;                <a class="code" href="server_8c.html#af9150b82e29a37ab848ee2f66e993793">quit</a>(_fail, comment);</div>
 <div class="line"><a name="l04600"></a><span class="lineno"> 4600</span>&#160;        }</div>
 <div class="line"><a name="l04601"></a><span class="lineno"> 4601</span>&#160;        <span class="keywordflow">if</span> (!strcmp(<span class="stringliteral">&quot;--testMarkupFileName&quot;</span>, argv[i])) {</div>
 <div class="line"><a name="l04602"></a><span class="lineno"> 4602</span>&#160;            <span class="keywordflow">if</span> (i + 1 &lt; argc)</div>
 <div class="line"><a name="l04603"></a><span class="lineno"> 4603</span>&#160;                validator.setTestMarkupFileName(argv[++i]);</div>
 <div class="line"><a name="l04604"></a><span class="lineno"> 4604</span>&#160;            <span class="keywordflow">else</span></div>
-<div class="line"><a name="l04605"></a><span class="lineno"> 4605</span>&#160;                quit(_fail, comment);</div>
+<div class="line"><a name="l04605"></a><span class="lineno"> 4605</span>&#160;                <a class="code" href="server_8c.html#af9150b82e29a37ab848ee2f66e993793">quit</a>(_fail, comment);</div>
 <div class="line"><a name="l04606"></a><span class="lineno"> 4606</span>&#160;        }</div>
 <div class="line"><a name="l04607"></a><span class="lineno"> 4607</span>&#160;        <span class="keywordflow">if</span> (!strcmp(<span class="stringliteral">&quot;--testCase&quot;</span>, argv[i])) {</div>
 <div class="line"><a name="l04608"></a><span class="lineno"> 4608</span>&#160;            <span class="keywordflow">if</span> (i + 1 &lt; argc) {</div>
 <div class="line"><a name="l04609"></a><span class="lineno"> 4609</span>&#160;                <span class="keywordtype">long</span> <span class="keywordtype">long</span> testCase = stringToLongLong(inf, argv[++i]);</div>
 <div class="line"><a name="l04610"></a><span class="lineno"> 4610</span>&#160;                <span class="keywordflow">if</span> (testCase &lt; 1 || testCase &gt;= __TESTLIB_MAX_TEST_CASE)</div>
-<div class="line"><a name="l04611"></a><span class="lineno"> 4611</span>&#160;                    quit(_fail, format(<span class="stringliteral">&quot;Argument testCase should be between 1 and %d, but &quot;</span>, __TESTLIB_MAX_TEST_CASE)</div>
+<div class="line"><a name="l04611"></a><span class="lineno"> 4611</span>&#160;                    <a class="code" href="server_8c.html#af9150b82e29a37ab848ee2f66e993793">quit</a>(_fail, format(<span class="stringliteral">&quot;Argument testCase should be between 1 and %d, but &quot;</span>, __TESTLIB_MAX_TEST_CASE)</div>
 <div class="line"><a name="l04612"></a><span class="lineno"> 4612</span>&#160;                                + toString(testCase) + <span class="stringliteral">&quot; found&quot;</span>);</div>
 <div class="line"><a name="l04613"></a><span class="lineno"> 4613</span>&#160;                validator.setTestCase(<span class="keywordtype">int</span>(testCase));</div>
 <div class="line"><a name="l04614"></a><span class="lineno"> 4614</span>&#160;            } <span class="keywordflow">else</span></div>
-<div class="line"><a name="l04615"></a><span class="lineno"> 4615</span>&#160;                quit(_fail, comment);</div>
+<div class="line"><a name="l04615"></a><span class="lineno"> 4615</span>&#160;                <a class="code" href="server_8c.html#af9150b82e29a37ab848ee2f66e993793">quit</a>(_fail, comment);</div>
 <div class="line"><a name="l04616"></a><span class="lineno"> 4616</span>&#160;        }</div>
 <div class="line"><a name="l04617"></a><span class="lineno"> 4617</span>&#160;        <span class="keywordflow">if</span> (!strcmp(<span class="stringliteral">&quot;--testCaseFileName&quot;</span>, argv[i])) {</div>
 <div class="line"><a name="l04618"></a><span class="lineno"> 4618</span>&#160;            <span class="keywordflow">if</span> (i + 1 &lt; argc) {</div>
 <div class="line"><a name="l04619"></a><span class="lineno"> 4619</span>&#160;                validator.setTestCaseFileName(argv[++i]);</div>
 <div class="line"><a name="l04620"></a><span class="lineno"> 4620</span>&#160;            } <span class="keywordflow">else</span></div>
-<div class="line"><a name="l04621"></a><span class="lineno"> 4621</span>&#160;                quit(_fail, comment);</div>
+<div class="line"><a name="l04621"></a><span class="lineno"> 4621</span>&#160;                <a class="code" href="server_8c.html#af9150b82e29a37ab848ee2f66e993793">quit</a>(_fail, comment);</div>
 <div class="line"><a name="l04622"></a><span class="lineno"> 4622</span>&#160;        }</div>
 <div class="line"><a name="l04623"></a><span class="lineno"> 4623</span>&#160;    }</div>
 <div class="line"><a name="l04624"></a><span class="lineno"> 4624</span>&#160;}</div>
 <div class="line"><a name="l04625"></a><span class="lineno"> 4625</span>&#160; </div>
 <div class="line"><a name="l04626"></a><span class="lineno"> 4626</span>&#160;<span class="keywordtype">void</span> addFeature(<span class="keyword">const</span> std::string &amp;feature) {</div>
 <div class="line"><a name="l04627"></a><span class="lineno"> 4627</span>&#160;    <span class="keywordflow">if</span> (testlibMode != _validator)</div>
-<div class="line"><a name="l04628"></a><span class="lineno"> 4628</span>&#160;        quit(_fail, <span class="stringliteral">&quot;Features are supported in validators only.&quot;</span>);</div>
+<div class="line"><a name="l04628"></a><span class="lineno"> 4628</span>&#160;        <a class="code" href="server_8c.html#af9150b82e29a37ab848ee2f66e993793">quit</a>(_fail, <span class="stringliteral">&quot;Features are supported in validators only.&quot;</span>);</div>
 <div class="line"><a name="l04629"></a><span class="lineno"> 4629</span>&#160;    validator.addFeature(feature);</div>
 <div class="line"><a name="l04630"></a><span class="lineno"> 4630</span>&#160;}</div>
 <div class="line"><a name="l04631"></a><span class="lineno"> 4631</span>&#160; </div>
 <div class="line"><a name="l04632"></a><span class="lineno"> 4632</span>&#160;<span class="keywordtype">void</span> feature(<span class="keyword">const</span> std::string &amp;feature) {</div>
 <div class="line"><a name="l04633"></a><span class="lineno"> 4633</span>&#160;    <span class="keywordflow">if</span> (testlibMode != _validator)</div>
-<div class="line"><a name="l04634"></a><span class="lineno"> 4634</span>&#160;        quit(_fail, <span class="stringliteral">&quot;Features are supported in validators only.&quot;</span>);</div>
+<div class="line"><a name="l04634"></a><span class="lineno"> 4634</span>&#160;        <a class="code" href="server_8c.html#af9150b82e29a37ab848ee2f66e993793">quit</a>(_fail, <span class="stringliteral">&quot;Features are supported in validators only.&quot;</span>);</div>
 <div class="line"><a name="l04635"></a><span class="lineno"> 4635</span>&#160;    validator.feature(feature);</div>
 <div class="line"><a name="l04636"></a><span class="lineno"> 4636</span>&#160;}</div>
 <div class="line"><a name="l04637"></a><span class="lineno"> 4637</span>&#160; </div>
@@ -4756,12 +4756,12 @@ $(function() {
 <div class="line"><a name="l04686"></a><span class="lineno"> 4686</span>&#160;            <span class="keywordflow">if</span> (i + 1 &lt; argc &amp;&amp; strlen(argv[i + 1]) &gt; 0)</div>
 <div class="line"><a name="l04687"></a><span class="lineno"> 4687</span>&#160;                checker.setTestset(argv[++i]);</div>
 <div class="line"><a name="l04688"></a><span class="lineno"> 4688</span>&#160;            <span class="keywordflow">else</span></div>
-<div class="line"><a name="l04689"></a><span class="lineno"> 4689</span>&#160;                quit(_fail, std::string(<span class="stringliteral">&quot;Expected testset after --testset command line parameter&quot;</span>));</div>
+<div class="line"><a name="l04689"></a><span class="lineno"> 4689</span>&#160;                <a class="code" href="server_8c.html#af9150b82e29a37ab848ee2f66e993793">quit</a>(_fail, std::string(<span class="stringliteral">&quot;Expected testset after --testset command line parameter&quot;</span>));</div>
 <div class="line"><a name="l04690"></a><span class="lineno"> 4690</span>&#160;        } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (!strcmp(<span class="stringliteral">&quot;--group&quot;</span>, argv[i])) {</div>
 <div class="line"><a name="l04691"></a><span class="lineno"> 4691</span>&#160;            <span class="keywordflow">if</span> (i + 1 &lt; argc)</div>
 <div class="line"><a name="l04692"></a><span class="lineno"> 4692</span>&#160;                checker.setGroup(argv[++i]);</div>
 <div class="line"><a name="l04693"></a><span class="lineno"> 4693</span>&#160;            <span class="keywordflow">else</span></div>
-<div class="line"><a name="l04694"></a><span class="lineno"> 4694</span>&#160;                quit(_fail, std::string(<span class="stringliteral">&quot;Expected group after --group command line parameter&quot;</span>));</div>
+<div class="line"><a name="l04694"></a><span class="lineno"> 4694</span>&#160;                <a class="code" href="server_8c.html#af9150b82e29a37ab848ee2f66e993793">quit</a>(_fail, std::string(<span class="stringliteral">&quot;Expected group after --group command line parameter&quot;</span>));</div>
 <div class="line"><a name="l04695"></a><span class="lineno"> 4695</span>&#160;        } <span class="keywordflow">else</span></div>
 <div class="line"><a name="l04696"></a><span class="lineno"> 4696</span>&#160;            args.push_back(argv[i]);</div>
 <div class="line"><a name="l04697"></a><span class="lineno"> 4697</span>&#160;    }</div>
@@ -4771,7 +4771,7 @@ $(function() {
 <div class="line"><a name="l04701"></a><span class="lineno"> 4701</span>&#160;        __testlib_help();</div>
 <div class="line"><a name="l04702"></a><span class="lineno"> 4702</span>&#160; </div>
 <div class="line"><a name="l04703"></a><span class="lineno"> 4703</span>&#160;    <span class="keywordflow">if</span> (argc &lt; 4 || argc &gt; 6) {</div>
-<div class="line"><a name="l04704"></a><span class="lineno"> 4704</span>&#160;        quit(_fail, std::string(<span class="stringliteral">&quot;Program must be run with the following arguments: &quot;</span>) +</div>
+<div class="line"><a name="l04704"></a><span class="lineno"> 4704</span>&#160;        <a class="code" href="server_8c.html#af9150b82e29a37ab848ee2f66e993793">quit</a>(_fail, std::string(<span class="stringliteral">&quot;Program must be run with the following arguments: &quot;</span>) +</div>
 <div class="line"><a name="l04705"></a><span class="lineno"> 4705</span>&#160;                    std::string(<span class="stringliteral">&quot;[--testset testset] [--group group] &lt;input-file&gt; &lt;output-file&gt; &lt;answer-file&gt; [&lt;report-file&gt; [&lt;-appes&gt;]]&quot;</span>) +</div>
 <div class="line"><a name="l04706"></a><span class="lineno"> 4706</span>&#160;                    <span class="stringliteral">&quot;\nUse \&quot;--help\&quot; to get help information&quot;</span>);</div>
 <div class="line"><a name="l04707"></a><span class="lineno"> 4707</span>&#160;    }</div>
@@ -4789,7 +4789,7 @@ $(function() {
 <div class="line"><a name="l04719"></a><span class="lineno"> 4719</span>&#160; </div>
 <div class="line"><a name="l04720"></a><span class="lineno"> 4720</span>&#160;    <span class="keywordflow">if</span> (argc == 6) {</div>
 <div class="line"><a name="l04721"></a><span class="lineno"> 4721</span>&#160;        <span class="keywordflow">if</span> (<span class="stringliteral">&quot;-APPES&quot;</span> != args[5] &amp;&amp; <span class="stringliteral">&quot;-appes&quot;</span> != args[5]) {</div>
-<div class="line"><a name="l04722"></a><span class="lineno"> 4722</span>&#160;            quit(_fail, std::string(<span class="stringliteral">&quot;Program must be run with the following arguments: &quot;</span>) +</div>
+<div class="line"><a name="l04722"></a><span class="lineno"> 4722</span>&#160;            <a class="code" href="server_8c.html#af9150b82e29a37ab848ee2f66e993793">quit</a>(_fail, std::string(<span class="stringliteral">&quot;Program must be run with the following arguments: &quot;</span>) +</div>
 <div class="line"><a name="l04723"></a><span class="lineno"> 4723</span>&#160;                        <span class="stringliteral">&quot;&lt;input-file&gt; &lt;output-file&gt; &lt;answer-file&gt; [&lt;report-file&gt; [&lt;-appes&gt;]]&quot;</span>);</div>
 <div class="line"><a name="l04724"></a><span class="lineno"> 4724</span>&#160;        } <span class="keywordflow">else</span> {</div>
 <div class="line"><a name="l04725"></a><span class="lineno"> 4725</span>&#160;            resultName = args[4];</div>
@@ -4806,7 +4806,7 @@ $(function() {
 <div class="line"><a name="l04736"></a><span class="lineno"> 4736</span>&#160; </div>
 <div class="line"><a name="l04737"></a><span class="lineno"> 4737</span>&#160;<span class="keywordtype">void</span> registerTestlib(<span class="keywordtype">int</span> argc, ...) {</div>
 <div class="line"><a name="l04738"></a><span class="lineno"> 4738</span>&#160;    <span class="keywordflow">if</span> (argc &lt; 3 || argc &gt; 5)</div>
-<div class="line"><a name="l04739"></a><span class="lineno"> 4739</span>&#160;        quit(_fail, std::string(<span class="stringliteral">&quot;Program must be run with the following arguments: &quot;</span>) +</div>
+<div class="line"><a name="l04739"></a><span class="lineno"> 4739</span>&#160;        <a class="code" href="server_8c.html#af9150b82e29a37ab848ee2f66e993793">quit</a>(_fail, std::string(<span class="stringliteral">&quot;Program must be run with the following arguments: &quot;</span>) +</div>
 <div class="line"><a name="l04740"></a><span class="lineno"> 4740</span>&#160;                    <span class="stringliteral">&quot;&lt;input-file&gt; &lt;output-file&gt; &lt;answer-file&gt; [&lt;report-file&gt; [&lt;-appes&gt;]]&quot;</span>);</div>
 <div class="line"><a name="l04741"></a><span class="lineno"> 4741</span>&#160; </div>
 <div class="line"><a name="l04742"></a><span class="lineno"> 4742</span>&#160;    <span class="keywordtype">char</span> **argv = <span class="keyword">new</span> <span class="keywordtype">char</span> *[argc + 1];</div>
@@ -4825,7 +4825,7 @@ $(function() {
 <div class="line"><a name="l04755"></a><span class="lineno"> 4755</span>&#160; </div>
 <div class="line"><a name="l04756"></a><span class="lineno"> 4756</span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> __testlib_ensure(<span class="keywordtype">bool</span> cond, <span class="keyword">const</span> std::string &amp;msg) {</div>
 <div class="line"><a name="l04757"></a><span class="lineno"> 4757</span>&#160;    <span class="keywordflow">if</span> (!cond)</div>
-<div class="line"><a name="l04758"></a><span class="lineno"> 4758</span>&#160;        quit(_fail, msg.c_str());</div>
+<div class="line"><a name="l04758"></a><span class="lineno"> 4758</span>&#160;        <a class="code" href="server_8c.html#af9150b82e29a37ab848ee2f66e993793">quit</a>(_fail, msg.c_str());</div>
 <div class="line"><a name="l04759"></a><span class="lineno"> 4759</span>&#160;}</div>
 <div class="line"><a name="l04760"></a><span class="lineno"> 4760</span>&#160; </div>
 <div class="line"><a name="l04761"></a><span class="lineno"> 4761</span>&#160;<span class="preprocessor">#ifdef __GNUC__</span></div>
@@ -4833,7 +4833,7 @@ $(function() {
 <div class="line"><a name="l04763"></a><span class="lineno"> 4763</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l04764"></a><span class="lineno"> 4764</span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> __testlib_ensure(<span class="keywordtype">bool</span> cond, <span class="keyword">const</span> <span class="keywordtype">char</span> *msg) {</div>
 <div class="line"><a name="l04765"></a><span class="lineno"> 4765</span>&#160;    <span class="keywordflow">if</span> (!cond)</div>
-<div class="line"><a name="l04766"></a><span class="lineno"> 4766</span>&#160;        quit(_fail, msg);</div>
+<div class="line"><a name="l04766"></a><span class="lineno"> 4766</span>&#160;        <a class="code" href="server_8c.html#af9150b82e29a37ab848ee2f66e993793">quit</a>(_fail, msg);</div>
 <div class="line"><a name="l04767"></a><span class="lineno"> 4767</span>&#160;}</div>
 <div class="line"><a name="l04768"></a><span class="lineno"> 4768</span>&#160; </div>
 <div class="line"><a name="l04769"></a><span class="lineno"> 4769</span>&#160;<span class="preprocessor">#define ensure(cond) __testlib_ensure(cond, &quot;Condition failed: \&quot;&quot;</span> #cond &quot;\&quot;&quot;)</div>
@@ -5087,7 +5087,7 @@ $(function() {
 <div class="line"><a name="l05031"></a><span class="lineno"> 5031</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l05032"></a><span class="lineno"> 5032</span>&#160;        message = format(<span class="stringliteral">&quot;expected &#39;%s&#39;, but found &#39;%s&#39;&quot;</span>,</div>
 <div class="line"><a name="l05033"></a><span class="lineno"> 5033</span>&#160;                         compress(expected).c_str(), compress(found).c_str());</div>
-<div class="line"><a name="l05034"></a><span class="lineno"> 5034</span>&#160;    quit(result, message);</div>
+<div class="line"><a name="l05034"></a><span class="lineno"> 5034</span>&#160;    <a class="code" href="server_8c.html#af9150b82e29a37ab848ee2f66e993793">quit</a>(result, message);</div>
 <div class="line"><a name="l05035"></a><span class="lineno"> 5035</span>&#160;}</div>
 <div class="line"><a name="l05036"></a><span class="lineno"> 5036</span>&#160; </div>
 <div class="line"><a name="l05037"></a><span class="lineno"> 5037</span>&#160;NORETURN <span class="keywordtype">void</span> __testlib_expectedButFound(TResult result, <span class="keywordtype">double</span> expected, <span class="keywordtype">double</span> found, <span class="keyword">const</span> <span class="keywordtype">char</span> *prepend) {</div>
@@ -6004,6 +6004,7 @@ $(function() {
 <div class="ttc" id="aclassrandom__t_html"><div class="ttname"><a href="classrandom__t.html">random_t</a></div><div class="ttdef"><b>Definition:</b> testlib.h:748</div></div>
 <div class="ttc" id="aclassreader_html"><div class="ttname"><a href="classreader.html">reader</a></div><div class="ttdef"><b>Definition:</b> read_from_file.h:15</div></div>
 <div class="ttc" id="aio_8h_html"><div class="ttname"><a href="io_8h.html">io.h</a></div></div>
+<div class="ttc" id="aserver_8c_html_af9150b82e29a37ab848ee2f66e993793"><div class="ttname"><a href="server_8c.html#af9150b82e29a37ab848ee2f66e993793">quit</a></div><div class="ttdeci">void quit(int sig)</div><div class="ttdef"><b>Definition:</b> server.c:26</div></div>
 <div class="ttc" id="astruct_in_stream_html"><div class="ttname"><a href="struct_in_stream.html">InStream</a></div><div class="ttdef"><b>Definition:</b> testlib.h:1997</div></div>
 <div class="ttc" id="astruct_testlib_finalize_guard_html"><div class="ttname"><a href="struct_testlib_finalize_guard.html">TestlibFinalizeGuard</a></div><div class="ttdef"><b>Definition:</b> testlib.h:2684</div></div>
 <div class="ttc" id="astruct_validator_bounds_hit_html"><div class="ttname"><a href="struct_validator_bounds_hit.html">ValidatorBoundsHit</a></div><div class="ttdef"><b>Definition:</b> testlib.h:2381</div></div>
