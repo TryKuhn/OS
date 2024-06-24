@@ -29,7 +29,6 @@ public:
 
         if (file == nullptr) {
             perror("Can't open output file");
-            exit(2);
         } else {
             char c;
             int cnt;

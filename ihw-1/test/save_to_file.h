@@ -25,10 +25,10 @@ public:
      * @param test current test number
      * @param info string to save
      */
-    static void save_to_file(const std::string &name, int test, const std::string &info) {
+    static void save_to_file(const std::string &name, int test, const std::string& info) {
         if (mkdir("tests", S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH) == -1 && errno != EEXIST) {
             perror("Tests is not created");
-            exit(1);
+            return;
         }
 
         FILE *file;
@@ -37,7 +37,7 @@ public:
 
         if (file == nullptr) {
             perror("Can't open input file");
-            exit(1);
+            return;
         } else {
             for (char i: info) {
                 fprintf(file, "%c", i);

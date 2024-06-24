@@ -58,15 +58,15 @@ public:
      * @param argv params
      * @return Generated string
      */
-    static std::pair<char *, int> test(int argc, char *argv[]) {
-        registerGen(argc, argv, 1);
+    static std::pair<std::string, int> test(int argc, char *argv[]) {
 
         int test = opt<int>("test");
         int N = opt<int>("N");
         int alpha = opt<int>("Alpha");
 
 
-        char *s = new char[N];
+        std::string s;
+        s.resize(N);
 
         for (int i = 0; i < N; ++i) {
             s[i] = generate_char(alpha);

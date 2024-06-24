@@ -19,7 +19,7 @@ class handler {
 public:
     /**
      * Reader part of input
-     * @param reader reader query
+     * @param reader reader queue
      * @param buff buffer where to read
      * @return length of string
      */
@@ -32,7 +32,11 @@ public:
             return 0;
         }
 
-        if (buff[bytes_read] == (char)128) {
+        if (bytes_read == 0) {
+            return 0;
+        }
+
+        if (buff[bytes_read - 1] == (char)3) {
             bytes_read = 0;
         }
 
@@ -41,11 +45,11 @@ public:
 
     /**
      * Writer part of output
-     * @param writer writer query
+     * @param writer writer queue
      * @param buff buffer from where to write
      */
-    static void write_part(mqd_t writer, char* buff) {
-        if (mq_send(writer, buff, TBUFFER_SIZE, 0) < 0) {
+    static void write_part(mqd_t writer, char* buff, size_t len) {
+        if (mq_send(writer, buff, len, 0) < 0) {
             printer::print_error("Can't send data to another process using queue");
             return;
         }

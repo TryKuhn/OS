@@ -7,15 +7,16 @@
 #include "err_msg.h"
 #include "process_work.h"
 
+/**
+ * Getter of input through the queue and handler
+ */
 class getPAnswer {
 public:
 
     /**
      * Computer of participant answer
-     * @param input name of input file
-     * @param output name of output file
      */
-    static void p_ans(const char* input, const char* output) {
+    static void p_ans() {
         struct mq_attr attr = {0};
         attr.mq_maxmsg      = 10;
         attr.mq_msgsize     = (long)(TBUFFER_SIZE - 1);
@@ -23,37 +24,41 @@ public:
         mqd_t reader = mq_open("/read-proc-q", O_RDONLY | O_CREAT, 0666, &attr);
         mqd_t writer = mq_open("/write-proc-q", O_WRONLY | O_CREAT, 0666, &attr);
 
+        bool ok = true;
+
         if (reader == -1) {
             printer::print_error("Can't open queue reader");
-            return;
+            ok = false;
         }
 
         if (writer == -1) {
             printer::print_error("Can't close queue writer");
-            return;
+            ok = false;
         }
 
-        process::run_process(reader, writer);
+        if (ok) {
+            process::run_process(reader, writer);
+        }
+        printer::end_of_communication(writer);
 
         if (mq_close(reader) == -1) {
             printer::print_error("Can't close queue reader");
-            return;
         }
 
         if (mq_close(writer) == -1) {
             printer::print_error("Can't close queue writer");
-            return;
         }
+
     }
 };
 
+/**
+ * Run of the process
+ * @param argc cmd line args count
+ * @param argv cmd line args
+ * @return 0 if everything is ok
+ * @return code of error otherwise
+ */
 int main(int argc, char* argv[]) {
-    if (argc != 1) {
-        printer::print_error("Number of argc is not equal to one");
-        return 0;
-    }
-
-    std::string test = argv[1];
-    getPAnswer::p_ans(("tests/input" + test + ".txt").c_str(),
-                      ("tests/output" + test + ".txt").c_str());
+    getPAnswer::p_ans();
 }

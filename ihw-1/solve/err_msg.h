@@ -8,6 +8,7 @@
 
 #include <cstdio>
 #include <cstdlib>
+#include <mqueue.h>
 
 /**
  * Printers of the errors
@@ -21,6 +22,13 @@ public:
     static inline void print_error(const char msg[]) {
         perror(msg);
         fprintf(stderr, "Error! %s\n", msg);
+    }
+
+    static inline void end_of_communication(mqd_t q) {
+        if (q >= 0) {
+            const char msg[] = {(char)3};
+            mq_send(q, msg, sizeof msg, 0);
+        }
     }
 };
 

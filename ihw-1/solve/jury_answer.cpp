@@ -3,9 +3,9 @@
  * Generating jury answer
  */
 
-#include "../../../../../../usr/include/c++/12/string"
-#include "../../../../../../usr/include/c++/12/map"
-#include "../../../../../../usr/include/c++/12/set"
+#include <string>
+#include <map>
+#include <set>
 
 /**
  * Functions needed to generate jury output
@@ -47,5 +47,3 @@ public:
         return answer;
     }
 };
-
-std::set<char> getAnswer::is_ok = {};

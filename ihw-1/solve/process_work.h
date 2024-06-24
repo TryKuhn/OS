@@ -16,7 +16,8 @@ class process {
     /**
      * Converts punctuation mark to index in array
      * @param c char to convert
-     * @return if given aindex
+     * @return if given annotation mark - index
+     * @return END_OF_ARRAY otherwise
      */
     static int convert(char c) {
         if (c == ',') {
@@ -42,9 +43,9 @@ class process {
 public:
 
     /**
-     *
-     * @param reader
-     * @param writer
+     * Reads files from query, calculate answer and returns it back through the query
+     * @param reader reader queue
+     * @param writer writer queue
      */
     static void run_process(mqd_t reader, mqd_t writer) {
         int cnt[6];
@@ -53,7 +54,7 @@ public:
         while (true) {
             char read_buf[TBUFFER_SIZE];
 
-            size_t len = handler::read_part(reader, read_buf);
+            ssize_t len = handler::read_part(reader, read_buf);
 
             if (len == 0) {
                 break;
@@ -70,13 +71,37 @@ public:
             }
         }
 
-        char writeBuff[TBUFFER_SIZE];
-        for (int i = 0; i < 6; ++i) {
-            snprintf(writeBuff, TBUFFER_SIZE, ", %d\n; %d\n: %d\n. %d\n? %d\n! %d\n",
-                     cnt[0], cnt[1], cnt[2], cnt[3], cnt[4], cnt[5]);
-        }
+        char* write_buff;
 
-        handler::write_part(writer, writeBuff);
+        std::string cur = ", " + std::to_string(cnt[0]) + "\n";
+        write_buff = cur.data();
+
+        handler::write_part(writer, write_buff, cur.size());
+
+        cur = "; " + std::to_string(cnt[1]) + "\n";
+        write_buff = cur.data();
+
+        handler::write_part(writer, write_buff, cur.size());
+
+        cur = ": " + std::to_string(cnt[2]) + "\n";
+        write_buff = cur.data();
+
+        handler::write_part(writer, write_buff, cur.size());
+
+        cur = ". " + std::to_string(cnt[3]) + "\n";
+        write_buff = cur.data();
+
+        handler::write_part(writer, write_buff, cur.size());
+
+        cur = "? " + std::to_string(cnt[4]) + "\n";
+        write_buff = cur.data();
+
+        handler::write_part(writer, write_buff, cur.size());
+
+        cur = "! " + std::to_string(cnt[5]) + "\n";
+        write_buff = cur.data();
+
+        handler::write_part(writer, write_buff, cur.size());
     }
 };
 

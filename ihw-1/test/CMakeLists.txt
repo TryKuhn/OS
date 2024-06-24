@@ -1,11 +1,6 @@
 add_executable(check
         check.cpp
-        generate_test.h
-        save_to_file.h
-        read_from_file.h
-        ../solve/io.h
-        ../solve/err_msg.h
-        ../solve/process_work.h)
+        save_to_file.h)
 
 set(LEN 10 10 10 100 100000)
 set(SYMBOLS 2 26 128 128 128)
