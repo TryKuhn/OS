@@ -1,6 +1,7 @@
 add_executable(check
         check.cpp
-        save_to_file.h)
+        save_to_file.h
+        ../../ihw-2/solve/server.c)
 
 set(LEN 10 10 10 100 100000)
 set(SYMBOLS 2 26 128 128 128)
