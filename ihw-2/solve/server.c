@@ -49,7 +49,6 @@ int rnd_next(int l, int r) {
  */
 bool generate_key() {
     key = ftok(".", 0);
-
     if (key < 0) {
         fprintf(stderr, "Cannot generate key\n");
         return false;
@@ -68,7 +67,6 @@ bool get_semaphore_id() {
         fprintf(stderr, "Cannot get semaphore id\n");
         return false;
     }
-
     return true;
 }
 
