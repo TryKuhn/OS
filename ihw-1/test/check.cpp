@@ -8,8 +8,6 @@
 #include "save_to_file.h"
 #include "read_from_file.h"
 
-#include <cstdio>
-
 std::set<char> getAnswer::is_ok = {};
 
 /**
@@ -35,7 +33,6 @@ int main(int argc, char* argv[]) {
     saver::save_to_file("jury", t, jAns);
 
     std::map<char, int> pAns = reader::read_from_file("output", t);
-    return 0;
 
     if (jAns != pAns) {
         fprintf(stderr, "Wrong answer!\n");

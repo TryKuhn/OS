@@ -6,7 +6,9 @@
 #ifndef OS_PROCESS_WORK_H
 #define OS_PROCESS_WORK_H
 
+#include <string>
 #include <cstring>
+
 #include "io.h"
 
 /**
@@ -76,32 +78,44 @@ public:
         std::string cur = ", " + std::to_string(cnt[0]) + "\n";
         write_buff = cur.data();
 
-        handler::write_part(writer, write_buff, cur.size());
+        if (cnt[0] != 0) {
+            handler::write_part(writer, write_buff, cur.size());
+        }
 
         cur = "; " + std::to_string(cnt[1]) + "\n";
         write_buff = cur.data();
 
-        handler::write_part(writer, write_buff, cur.size());
+        if (cnt[1] != 0) {
+            handler::write_part(writer, write_buff, cur.size());
+        }
 
         cur = ": " + std::to_string(cnt[2]) + "\n";
         write_buff = cur.data();
 
-        handler::write_part(writer, write_buff, cur.size());
+        if (cnt[2] != 0) {
+            handler::write_part(writer, write_buff, cur.size());
+        }
 
         cur = ". " + std::to_string(cnt[3]) + "\n";
         write_buff = cur.data();
 
-        handler::write_part(writer, write_buff, cur.size());
+        if (cnt[3] != 0) {
+            handler::write_part(writer, write_buff, cur.size());
+        }
 
         cur = "? " + std::to_string(cnt[4]) + "\n";
         write_buff = cur.data();
 
-        handler::write_part(writer, write_buff, cur.size());
+        if (cnt[4] != 0) {
+            handler::write_part(writer, write_buff, cur.size());
+        }
 
         cur = "! " + std::to_string(cnt[5]) + "\n";
         write_buff = cur.data();
 
-        handler::write_part(writer, write_buff, cur.size());
+        if (cnt[5] != 0) {
+            handler::write_part(writer, write_buff, cur.size());
+        }
     }
 };
 

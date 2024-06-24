@@ -114,29 +114,29 @@ $(function() {
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    }</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="classgenerator.html#a0b438bcab8874ab7b81a781f686be705">   61</a></span>&#160;    <span class="keyword">static</span> std::pair&lt;char *, int&gt; <a class="code" href="classgenerator.html#a0b438bcab8874ab7b81a781f686be705">test</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span> *argv[]) {</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        registerGen(argc, argv, 1);</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="classgenerator.html#a0b438bcab8874ab7b81a781f686be705">test</a> = opt&lt;int&gt;(<span class="stringliteral">&quot;test&quot;</span>);</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="keywordtype">int</span> N = opt&lt;int&gt;(<span class="stringliteral">&quot;N&quot;</span>);</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="keywordtype">int</span> alpha = opt&lt;int&gt;(<span class="stringliteral">&quot;Alpha&quot;</span>);</div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="classgenerator.html#a2c2300f4b57e85867d7abce47dded7e9">   61</a></span>&#160;    <span class="keyword">static</span> std::pair&lt;std::string, int&gt; <a class="code" href="classgenerator.html#a2c2300f4b57e85867d7abce47dded7e9">test</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span> *argv[]) {</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="classgenerator.html#a2c2300f4b57e85867d7abce47dded7e9">test</a> = opt&lt;int&gt;(<span class="stringliteral">&quot;test&quot;</span>);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="keywordtype">int</span> N = opt&lt;int&gt;(<span class="stringliteral">&quot;N&quot;</span>);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="keywordtype">int</span> alpha = opt&lt;int&gt;(<span class="stringliteral">&quot;Alpha&quot;</span>);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keywordtype">char</span> *s = <span class="keyword">new</span> <span class="keywordtype">char</span>[N];</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        std::string s;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        s.resize(N);</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; N; ++i) {</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            s[i] = generate_char(alpha);</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        }</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160; </div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <a class="code" href="classsaver.html#a9462656ceabb39e74c0c235def49ead7">saver::save_to_file</a>(<span class="stringliteral">&quot;input&quot;</span>, <a class="code" href="classgenerator.html#a0b438bcab8874ab7b81a781f686be705">test</a>, s);</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <a class="code" href="classsaver.html#a9462656ceabb39e74c0c235def49ead7">saver::save_to_file</a>(<span class="stringliteral">&quot;input&quot;</span>, <a class="code" href="classgenerator.html#a2c2300f4b57e85867d7abce47dded7e9">test</a>, s);</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keywordflow">return</span> {s, <a class="code" href="classgenerator.html#a0b438bcab8874ab7b81a781f686be705">test</a>};</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keywordflow">return</span> {s, <a class="code" href="classgenerator.html#a2c2300f4b57e85867d7abce47dded7e9">test</a>};</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    }</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;};</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aclassgenerator_html"><div class="ttname"><a href="classgenerator.html">generator</a></div><div class="ttdef"><b>Definition:</b> generate_test.h:15</div></div>
-<div class="ttc" id="aclassgenerator_html_a0b438bcab8874ab7b81a781f686be705"><div class="ttname"><a href="classgenerator.html#a0b438bcab8874ab7b81a781f686be705">generator::test</a></div><div class="ttdeci">static std::pair&lt; char *, int &gt; test(int argc, char *argv[])</div><div class="ttdef"><b>Definition:</b> generate_test.h:61</div></div>
+<div class="ttc" id="aclassgenerator_html_a2c2300f4b57e85867d7abce47dded7e9"><div class="ttname"><a href="classgenerator.html#a2c2300f4b57e85867d7abce47dded7e9">generator::test</a></div><div class="ttdeci">static std::pair&lt; std::string, int &gt; test(int argc, char *argv[])</div><div class="ttdef"><b>Definition:</b> generate_test.h:61</div></div>
 <div class="ttc" id="aclasssaver_html_a9462656ceabb39e74c0c235def49ead7"><div class="ttname"><a href="classsaver.html#a9462656ceabb39e74c0c235def49ead7">saver::save_to_file</a></div><div class="ttdeci">static void save_to_file(const std::string &amp;name, int test, const std::string &amp;info)</div><div class="ttdef"><b>Definition:</b> save_to_file.h:28</div></div>
 <div class="ttc" id="asave__to__file_8h_html"><div class="ttname"><a href="save__to__file_8h.html">save_to_file.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
